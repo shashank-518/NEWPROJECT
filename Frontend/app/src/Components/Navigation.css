@@ -1,0 +1,29 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.navbar{
+    background-color: #1DB6F0;
+    height: 50px;
+    display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+.navbar ul {
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+}
+
+
