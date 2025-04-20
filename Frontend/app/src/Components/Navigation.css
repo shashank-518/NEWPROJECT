@@ -7,16 +7,37 @@
 
 .navbar{
     background-color: #1DB6F0;
-    height: 50px;
+    height: 70px;
     display: grid;
   grid-template-columns: 1fr 2fr 1fr;
 
 }
 
+
+
+.firstpart{
+    /* background-color: beige; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstpart img {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+
+.firstpart h1{
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+
 .navbar ul {
     display: flex;
     height: 50px;
-    justify-content: space-around;
     align-items: center;
 }
 
@@ -26,4 +47,11 @@
     align-items: center;
 }
 
+
+.mainpart{
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
