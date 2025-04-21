@@ -6,7 +6,7 @@
 
 
 .navbar{
-    background-color: #1DB6F0;
+    background-color: #1D90F0;
     height: 70px;
     display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -35,23 +35,51 @@
 
 
 
-.navbar ul {
+.mainpart ul {
     display: flex;
-    height: 50px;
-    align-items: center;
-}
-
-.navbar ul li {
-    text-decoration: none;
-    list-style: none;
-    align-items: center;
-}
-
-
-.mainpart{
-    background-color: blue;
-    display: flex;
+    height: 70px;
     align-items: center;
     justify-content: space-evenly;
 }
+
+.mainpart ul li {
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    color: #fff;
+}
+
+.authPart{
+    /* background-color: bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    background-color:#187AD1 ;
+    width: 100px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    margin-right: 12px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.start{
+
+    background-color:#187AD1 ;
+    width: 125px;
+    padding: 10px;
+    color: white;
+    font-size: large;
+    margin-right: 12px;
+    border: 2px solid white;
+    border-radius: 10px; 
+
+}
+
+
+
 
