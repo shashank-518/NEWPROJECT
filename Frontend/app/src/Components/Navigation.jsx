@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navigation.css";
+import Ham from "./Ham";
 
 export default Navigation = () => {
   return (
@@ -29,6 +30,13 @@ export default Navigation = () => {
             <button className="login" >Login</button>
             <button className="start" >Get Started</button>
         </div>
+
+        <div className="hampart">
+          <Ham/>
+        </div>
+
+        
+
       </nav>
     </>
   );
